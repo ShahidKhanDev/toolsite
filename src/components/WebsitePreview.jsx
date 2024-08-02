@@ -92,7 +92,7 @@ const WebsitePreview = ({
       <div className="tabs fixed bottom-2 left-1/2 -translate-x-1/2">
         <button
           type="button"
-          className="relative inline-flex items-center p-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          className="relative inline-flex items-center p-3 text-sm font-medium text-center text-white bg-[var(--primary-clr)] rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
         >
           <span>Tabs</span>
           <span className="sr-only">Tabs</span>

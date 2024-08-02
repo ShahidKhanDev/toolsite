@@ -26,12 +26,24 @@ const App = () => {
   const [fullScreen, setFullScreen] = useState(false);
 
   return (
-    <div className="min-h-screen bg-slate-50 pb-10">
-      <div className="h-[50vh] bg-blue-500 flex justify-center items-center flex-col">
-        <h1 className="text-4xl sm:text-6xl text-white font-bold">TOOLSITE</h1>
-        <p className="mt-2 text-white/80 text-md sm:text-xl">
-          Where Developers Find Essential Tools
-        </p>
+    <div className="min-h-screen bg-[#FFFCEC] pb-10 ">
+      <div className="hero__section h-[60vh] bg-[var(--primary-clr)]">
+        <div className="container max-w-4xl mx-auto  h-full flex justify-center items-center flex-col">
+          <h1 className="text-4xl sm:text-6xl text-white font-bold ff-marlin-extrabold">
+            TOOLSITE
+          </h1>
+          <p className="mt-2 text-white/85 text-md sm:text-xl">
+            Where Developers Find Essential Tools
+          </p>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfqYIhQNPMtm7JnK8vcsedVU00f1ru1dtCwwQJinfOIXcDRyw/viewform"
+            target="_blank"
+            rel="noopener noreferer"
+            className="bg-white py-2 px-4 mt-2 rounded-md btn-shadow text-[var(--primary-clr)] absolute right-2 top-2"
+          >
+            Add a site
+          </a>
+        </div>
       </div>
 
       <div className="container max-w-4xl mx-auto mt-10 px-3">
