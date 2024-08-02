@@ -5,3 +5,23 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+
+/* .category__title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0.75rem;
+  right: 0.75rem;
+  width: calc(100% - 1.5rem);
+  height: 1px;
+  background-color: #ccc;
+} */
+
+/* .image__cover {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: contain;
+  background-color: burlywood;
+  border-radius: 50%;
+  padding: 0.5rem;
+} */
